@@ -1,0 +1,64 @@
+@media (max-width: 580px) {
+    .logo {
+        transform: scale(0.5);
+        width: 90px;
+        height: 24px;
+        float: left;
+    }
+
+    ul li {
+        margin-left: 5px;
+        font-size: 9px;
+    }
+
+    .work-item img{
+        height: 210px;
+    }
+
+    .masthead {
+        padding: 100px 20px;
+    }
+  
+    .masthead-text-large {
+        font-size: 40px; 
+        margin-top: 50px; 
+    }
+  
+    .masthead-text-small {
+        font-size: 16px; 
+        margin-bottom: 50px; 
+    }
+  
+    .masthead-button {
+        width: 160px; 
+        height: 40px; 
+        font-size: 11px; 
+        padding: 8px 16px; 
+    }
+
+    .team-member{
+        width: 100%;
+    }
+
+    .client-images img,
+    .second-image{
+        height: 280px; 
+    }
+
+    .second-image-text h2{
+        font-size: 24px;
+    }
+
+    .top-part {
+        height: 325px;
+    }
+
+    .top-part-content {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .text-block {
+        margin: 0 auto;
+    }
+}

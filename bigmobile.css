@@ -1,0 +1,198 @@
+@media (max-width: 768px) {
+    .header {
+        width: 95%;
+    }
+  
+    .logo {
+        transform: scale(0.7);
+        width: 120px;
+        height: 24px;
+        float: left;
+    }
+    
+    ul li {
+        margin-left: 15px; 
+        font-size: 10px;
+    }
+  
+    .masthead {
+        padding: 70px;
+    }
+  
+    .masthead-text-large {
+        font-size: 30px; 
+        margin-top: 50px; 
+        line-height: normal;
+    }
+  
+    .masthead-text-small {
+        font-size: 12px;
+        margin-bottom: 50px; 
+        line-height: normal;
+    }
+  
+    .masthead-button {
+        width: 160px;
+        height: 35px; 
+        font-size: 11px; 
+        padding: 6px 12px;
+    }
+  
+    .features {
+        width: 70%; 
+    }
+    
+    .feature {
+        flex: 0 0 calc(50% - 40px); 
+        margin: 10px;
+    }
+
+    .feature-title {
+        font-size: 12px;
+    }
+    
+    .feature-description {
+        font-size: 12px;
+    }
+
+    .works {
+        width: 100%; 
+        margin-top: 60px; 
+    }
+    
+    .work-item {
+        width: 50%; 
+        margin: 0; 
+    }
+
+    .work-item img {
+        height: 272px; 
+    }
+
+    .project-name {
+        font-size: 12px; 
+        margin-bottom: 20px; 
+    }
+
+    .design-type {
+        font-size: 12px; 
+    }
+
+    .team {
+        width: 100%; 
+        margin-top: 60px; 
+    }
+
+    .team-member {
+        width: 50%;
+        margin: 0; 
+        margin-bottom: 40px; 
+        text-align: center;
+    }
+
+    .team-member img{
+        width: fit-content;
+    }
+
+    .member-info{
+        width: 270px;
+        margin: 0 auto;
+    }
+
+    .member-info h2 {
+        font-size: 18px; 
+        margin-bottom: 10px; 
+    }
+
+    .member-info h3 {
+        font-size: 12px;
+        margin-bottom: 15px; 
+    }
+
+    .member-info p {
+        font-size: 12px; 
+        margin-bottom: 20px; 
+    }
+
+    .social-icons{
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .social-icons img {
+        width: 24px; 
+        height: 24px;
+        margin-right: 2px; 
+    }
+
+    .clients {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .client-images{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .client-images img,
+    .second-image{
+        width: 100%; 
+        height: 380px; 
+    }
+
+    .second-image-text {
+        width: 80%;
+        top: 40px;
+        left: 20px;
+        text-align: left; 
+    }
+
+    .download {
+        padding: 30px 0; 
+        margin-top: 30px; 
+        margin-bottom: 30px; 
+    }
+
+    .main-text {
+        font-size: 24px; 
+    }
+
+    .secondary-text {
+        font-size: 11px; 
+        margin-top: 15px; 
+    }
+
+    .footer {
+        flex-direction: column; 
+        align-items: center;
+        padding: 20px; 
+    }
+
+    .top-part-content{
+        width: 95%;
+        margin-top: 5px;
+    }
+
+    .footer-nav {
+        margin-bottom: 20px; 
+    }
+
+    .footer-nav a {
+        margin-right: 10px; 
+    }
+
+    .social-links {
+        margin-top: 20px; 
+    }
+
+    .social-links img {
+        width: 20px; 
+        height: 20px;
+        margin-right: 5px; 
+    }
+
+    .legal {
+        font-size: 10px; 
+    }
+}
