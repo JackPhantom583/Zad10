@@ -51,22 +51,9 @@
         transition: transform 0.3s ease;
       }
 
-      .hamburger span:nth-child(1) {
-        top: 0;
-      }
-
-      .hamburger span:nth-child(2),
-      .hamburger span:nth-child(3) {
-        top: 13px;
-      }
-
-      .hamburger span:nth-child(4) {
-        top: 26px;
-      }
-
       .desktop-sidebar {
         width: 300px;
-        background-color: #114799;
+        background-color: #0a2041;
         padding: 20px;
         z-index: 1;
       }
@@ -723,7 +710,7 @@
         <amp-img src="ActiveBox.png" alt="Логотип" width="189" height="24" layout="responsive"></amp-img>
       </div>
       <button class="hamburger" on="tap:sidebar-desktop.toggle" aria-label="Click to open sidebar">=</button>
-      <amp-sidebar id="sidebar-desktop" class="desktop-sidebar" layout="nodisplay" side="right"  width="250">
+      <amp-sidebar id="sidebar-desktop" class="desktop-sidebar" layout="nodisplay" side="right"  width="250" overlay="false">
         <h1>Desktop Sidebar</h1>
           <nav toolbar="(min-width: 784px)" toolbar-target="target-element-desktop">
             <ul class="sidebar-menu">
