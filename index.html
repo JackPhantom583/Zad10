@@ -7,6 +7,7 @@
     <title>ACTIVEBOX</title>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
     <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script> 
     <style amp-custom>
             body {
         margin: 0; 
@@ -726,8 +727,16 @@
       <div class="logo">
         <amp-img src="ActiveBox.png" alt="Логотип" width="189" height="24" layout="responsive"></amp-img>
       </div>
+      <amp-sidebar id="sidebar" layout="nodisplay" side="right"  width="250">
+        <ul class="sidebar-menu">
+          <li><a href="#">FEATURES</a></li>
+          <li><a href="#">WORKS</a></li>
+          <li><a href="#">OUR TEAM</a></li>
+          <li><a href="#">TESTIMONIALS</a></li>
+          <li><a href="#">DOWNLOAD</a></li>
+        </ul>
+      </amp-sidebar>
     </header>
-    <button on="tap:sidebar.toggle">Открыть боковую панель</button>
 
     <section class="masthead">
       <div class="masthead-text-large">
@@ -915,15 +924,5 @@
         </div>
       </div>
     </footer>
-    <amp-sidebar id="sidebar" layout="nodisplay" side="right"  width="250">
-      <ul class="sidebar-menu">
-        <li><a href="#">FEATURES</a></li>
-        <li><a href="#">WORKS</a></li>
-        <li><a href="#">OUR TEAM</a></li>
-        <li><a href="#">TESTIMONIALS</a></li>
-        <li><a href="#">DOWNLOAD</a></li>
-      </ul>
-    </amp-sidebar>
-
 </body>
 </html>
