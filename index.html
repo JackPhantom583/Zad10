@@ -51,21 +51,6 @@
         flex: 1;
         padding: 20px;
       }
-        
-      ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: flex-end;
-      }
-        
-      ul li {
-        margin-left: 80px; 
-        font-family: 'Raleway', Bold; 
-        font-size: 13px; 
-        color: #d3d1d1; 
-      }
 
       .masthead {
         text-align: center;
@@ -407,10 +392,6 @@
           width: 80%; 
       }
 
-      ul li {
-          margin-left: 40px; 
-      }
-
       .masthead {
           padding: 100px; 
       }
@@ -461,11 +442,6 @@
           width: 120px;
           height: 24px;
           float: left;
-      }
-      
-      ul li {
-          margin-left: 15px; 
-          font-size: 10px;
       }
     
       .masthead {
@@ -658,11 +634,6 @@
           float: left;
       }
 
-      ul li {
-          margin-left: 5px;
-          font-size: 9px;
-      }
-
       .work-item amp-img{
           height: 210px;
       }
@@ -726,7 +697,7 @@
         <amp-img src="ActiveBox.png" alt="Логотип" width="189" height="24" layout="responsive"></amp-img>
       </div>
       <button class="hamburger" on="tap:sidebar-desktop.toggle" aria-label="Click to open sidebar">=</button>
-      <amp-sidebar id="sidebar" class="desktop-sidebar" layout="nodisplay" side="right"  width="250">
+      <amp-sidebar id="sidebar" class="sidebar-desktop" layout="nodisplay" side="right"  width="250">
         <h1>Desktop Sidebar</h1>
           <nav toolbar="(min-width: 784px)" toolbar-target="target-element-desktop">
             <ul class="sidebar-menu">
